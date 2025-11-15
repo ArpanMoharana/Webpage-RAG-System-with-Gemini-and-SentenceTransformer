@@ -56,6 +56,12 @@ os.environ["GOOGLE_API_KEY"] = getpass.getpass("Enter your Gemini API key: ")
 
 ## 📸Sample Output
 
+**1 — Webpage Loaded Successfully**
+![Webpage Loaded](https://raw.githubusercontent.com/ArpanMoharana/Webpage-RAG-System-with-Gemini-and-SentenceTransformer/c8a9c6560695ca198a2978dd5f01bb5fa7ddf01d/Random%20Webpage%20Loaded.png)
+<br>
+<br>
+**2 — Chatbot(gemini) Answers Using RAG**
+![AI System Doc View](https://raw.githubusercontent.com/ArpanMoharana/Webpage-RAG-System-with-Gemini-and-SentenceTransformer/c8a9c6560695ca198a2978dd5f01bb5fa7ddf01d/Doc%20viewed%20by%20AI%20system.png)
 
 ---
 
@@ -71,13 +77,16 @@ This project uses the following core libraries:
 - **chromadb** — Local persistent vector database for fast similarity search  
 - **langchain-text-splitters** — Text chunking utilities for RAG preprocessing  
 - **jupyterlab** — Interactive notebook environment for development
+  
   ---
-  ## 🔒 Security
+  
+## 🔒 Security
   
 The Google AI API key is loaded securely using Python's getpass module. This prevents the key from ever being saved in the notebook,
 printed in an output cell, or stored in the project's version history.
 
 ---
+
 ## 📜 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
